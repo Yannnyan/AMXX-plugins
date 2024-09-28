@@ -1,0 +1,49 @@
+{
+    "image": "yanyannn/cstrike:1.0.4",
+    "mounts": [
+        // "source=C:\\Users\\Yan\\Desktop\\half-life-modding\\cs1.6-server-linux\\cstrike\\addons,target=/home/steam/Steam/steamapps/common/Half-Life/cstrike/addons,type=bind,consistency=cached",
+    ],
+    "appPort": ["27015:27015/udp"],
+    "customizations": {
+    "vscode": {
+      "extensions": ["KliPPy.amxxpawn-language"],
+      "settings": {
+        "files.autoSave": "afterDelay",
+        "[python]": {
+            "editor.formatOnType": true
+        },
+        "hexeditor.columnWidth": 15,
+        "hexeditor.showDecodedText": true,
+        "hexeditor.defaultEndianness": "little",
+        "hexeditor.inspectorType": "aside",
+        "C_Cpp.errorSquiggles": "enabled",
+        "C_Cpp.autocompleteAddParentheses": true,
+        "C_Cpp.default.cStandard": "c17",
+        "C_Cpp.formatting": "clangFormat",
+        "C_Cpp.enhancedColorization": "disabled",
+        "git.openRepositoryInParentFolders": "never",
+        "workbench.colorTheme": "One Dark Pro Flat",
+        "debug.javascript.autoAttachFilter": "onlyWithFlag",
+        "window.zoomLevel": 1,
+        "redhat.telemetry.enabled": true,
+        "files.associations": {
+            "*.sh": "shellscript"
+        },
+        "[pawn]": {
+            "breadcrumbs.showFunctions": true
+        },
+        "pawn.compiler.executablePath": "/home/steam/Steam/steamapps/common/Half-Life/cstrike/addons/amxmodx/scripting/amxxpc",
+        "pawn.compiler.outputPath": "/home/steam/Steam/steamapps/common/Half-Life/cstrike/addons/amxmodx/plugins",
+        "pawn.compiler.showInfoMessages": true,
+        "amxxpawn.compiler.outputPath": "/home/steam/Steam/steamapps/common/Half-Life/cstrike/addons/amxmodx/plugins",
+        "amxxpawn.compiler.executablePath": "/home/steam/Steam/steamapps/common/Half-Life/cstrike/addons/amxmodx/scripting/amxxpc",
+        "amxxpawn.compiler.showInfoMessages": true,
+        "amxxpawn.language.webApiLinks": true,
+        "amxxpawn.compiler.includePaths": [
+            "/home/steam/Steam/steamapps/common/Half-Life/cstrike/addons/amxmodx/scripting/include"
+        ],
+        "amxxpawn.compiler.outputType": "path"
+      }
+    }
+  }
+}
